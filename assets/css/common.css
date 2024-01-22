@@ -1,0 +1,71 @@
+.skip-nav{
+  position: absolute;
+  top: 0;
+}
+.skip-nav a{
+  position: absolute;
+  width: 150px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  background: #ccc;
+  transform: translateY(-100%);
+}
+.skip-nav a:focus,
+.skip-nav a:active{
+  transform: translateY(0);
+}
+
+.blind{
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0,0,0,0);
+}
+
+.module-layout{
+  position: relative;
+  margin-top: 16px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 0 1px #e3e5e8,0 1px 2px 0 rgba(0,0,0,.04);
+  overflow: hidden;
+}
+
+.footer .group-notice a.link-service::after,
+.sc-widget .link-mobile p::after,
+.sc-widget .link-mobile p::before,
+.sc-widget .vibe-area .vibe-item a .item-img .ico-play::after,
+.sc-widget .vibe-area .title .ico-vibe,
+.sc-widget .dictionary-area .link-search::before,
+.sc-widget .papago-area a .ico-papago,
+.sc-widget .papago-area a::before,
+.sc-stock .group-info .company-item a.link-more .ico-arrow::after,
+.sc-stock .group-info .company-item a .price::before,
+.sc-stock .group-info .chart-area .percent::before,
+.sc-stock .group-header .btn-refresh::before,
+.sc-stock .group-header .btn-notification::before,
+.sc-weather .group-header .link-compare::before,
+.layer-area [class*='btn-']::before,
+.sc-shopping .group-control .control-area [class*='btn-']::before,
+.sc-login .link-login .ico-login::before,
+.sc-news .group-control .radio-area [class*='btn-']::before,
+.sc-news .group-control .control-area [class*='btn-']::before,
+.sc-news .group-issue .issue-area .col-left .ico-arrow,
+.header .btn-area [class*='btn-']::after,
+.header .gnb .gnb-item a [class*='ico-']::before,
+.header .gnb .gnb-item a [class*='ico-']::after,
+.header .group-search form fieldset [class*='btn-']::before{
+  background-image: url('../images/sp_contents.png');
+  background-size: 433px;
+  background-repeat: no-repeat;
+}
+
+.sc-weather .group-data .daily-weather .ico-weather::before,
+.sc-weather .group-data .img-area .ico-now::before{
+  background-image: url('../images/sp_weather.png');
+  background-size: 641px 587px;
+  background-repeat: no-repeat;
+}
